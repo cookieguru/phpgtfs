@@ -1,7 +1,7 @@
 <?php
 namespace cookieguru\phpgtfs;
 
-class GTFSCollection implements \Countable, \IteratorAggregate {
+class Collection implements \Countable, \IteratorAggregate {
 	protected $items;
 
 	/**

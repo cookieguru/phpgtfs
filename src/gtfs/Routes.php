@@ -1,7 +1,7 @@
 <?php
 namespace cookieguru\phpgtfs\gtfs;
 
-class Routes extends \cookieguru\phpgtfs\GTFSCollection {
+class Routes extends \cookieguru\phpgtfs\Collection {
 	const FILENAME = 'routes.txt';
 
 	/**

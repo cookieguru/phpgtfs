@@ -1,7 +1,7 @@
 <?php
 namespace cookieguru\phpgtfs\gtfs;
 
-class Stops extends \cookieguru\phpgtfs\GTFSCollection {
+class Stops extends \cookieguru\phpgtfs\Collection {
 	const FILENAME = 'stops.txt';
 
 	/**

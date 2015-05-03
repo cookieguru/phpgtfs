@@ -1,7 +1,7 @@
 <?php
 namespace cookieguru\phpgtfs\gtfs;
 
-class Shapes extends \cookieguru\phpgtfs\GTFSCollection {
+class Shapes extends \cookieguru\phpgtfs\Collection {
 	const FILENAME = 'shapes.txt';
 
 	/**
