@@ -1,0 +1,23 @@
+{
+    "name": "cookieguru/phpgtfs",
+    "description": "Data modeling and object writer for General Transit Feed Specification (GTFS)",
+    "keywords": ["gtfs", "transit data"],
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cookieguru",
+            "homepage": "https://github.com/cookieguru/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/cookieguru/phpgtfs/issues"
+    },
+    "homepage": "https://github.com/cookieguru/phpgtfs",
+    "autoload": {
+        "psr-4": {
+            "cookieguru\\phpgtfs\\": "src/"
+        }
+    }
+}
