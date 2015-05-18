@@ -22,7 +22,7 @@ $agency->agency_lang = 'en';
 $agencies->add($agency);
 ```
 Then simply
-```
+```php
 \cookieguru\phpgtfs\Writer::write('gtfs/', $agencies);
 ```
 and an `agencies.txt` file will be placed in the `gtfs` folder.  Note that even
